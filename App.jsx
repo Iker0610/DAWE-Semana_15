@@ -74,23 +74,26 @@ export default function App() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: '#fbfdf8',
         alignItems: 'center',
         justifyContent: 'center',
+
     },
     logo: {
         width: 305,
         height: 159,
-        marginBottom: 10,
+        marginBottom: 16,
     },
     instructions: {
-        color: '#888',
+        color: '#191c1a',
         fontSize: 18,
-        marginHorizontal: 15,
+        marginHorizontal: 32,
+        marginVertical: 32
     },
     button: {
-        backgroundColor: '#6650A4',
-        padding: 20,
+        backgroundColor: '#3D6473',
+        paddingVertical: 8,
+        paddingHorizontal: 16,
         borderRadius: 5,
     },
     buttonText: {
@@ -100,6 +103,7 @@ const styles = StyleSheet.create({
     thumbnail: {
         width: 300,
         height: 300,
-        resizeMode: "contain"
+        resizeMode: "contain",
+        marginVertical: 32
     },
 })
